@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
+@Entity 
 @Table(name = "group", schema = "public")
 public class GroupEntity {
     @Id
